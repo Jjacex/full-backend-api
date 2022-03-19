@@ -1,0 +1,6 @@
+THINGS TO LEARN MORE ABOUT
+
+
+
+AHA MOMENTS
+- your .env file should be in the root of your document
