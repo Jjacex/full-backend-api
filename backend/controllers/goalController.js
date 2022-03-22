@@ -57,7 +57,7 @@ const updateGoal = asyncHandler(async (req, res) => {
     }
 
     const updatedGoal = await Goal.findByIdAndUpdate(req.params.id, req.body, {new: true})
-    res.status(200).json(updateGoal)
+    res.status(200).json(updatedGoal)
 })
 
 // @desc deletes a goal
